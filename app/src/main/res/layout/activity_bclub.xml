@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bclub"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conqr-EWU"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:padding="15px"
+        android:textColor="@color/white"
+        android:background="#3b5998"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_margin="20dp"
+        android:background="#fbf7f5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="EWU BUSINESS CLUB"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:padding="25px"
+            android:textColor="@color/white"
+            android:background="#008744"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/bclub"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:text="East West University Business Club(EWUBC) is the first club of the university with the aim to promote leadership and entrepreneurship of dexterous students. The club works with the all phases of business to practice and determine management skills under the intellectual supervision of spotlessly competent moderators. Since 1999, EWUBC has been putting efforts for students to practice creativity, teamwork, leadership, idea sharing and so much more.EWUBC functions on grooming programs for students about presentation skill development, Microsoft Excel, career talk, business competitions etc. EWUBC appreciates students by organizing many events, seminars and competitions."
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:padding="25px"
+            android:textColor="@color/black"
+
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="JOIN NOW"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:padding="25px"
+            android:textColor="@color/white"
+            android:backgroundTint="#008744"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/btn"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="back"
+            android:id="@+id/back"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

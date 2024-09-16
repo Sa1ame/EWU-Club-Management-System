@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".agro"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conqr-EWU"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:padding="15px"
+        android:textColor="@color/white"
+        android:background="#3b5998"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_margin="20dp"
+        android:background="#fbf7f5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="AGRO INDUSTRIALIZATION CLUB"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:gravity="center"
+            android:padding="25px"
+            android:textColor="@color/white"
+            android:background="#008744"
+            />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:src="@drawable/agro2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:text="We believe that the private sector can also play a significant role in our agricultural economy to keep pace with the competitive world along with the public sectors. And EWUAIC is performing this role proudly. EWUAIC holds 4 flagship events- EWU MarquePrey, EWU Supply Chain Challenge, EWU Agro Biz Expo, EWU Value String Challenge and has successfully completed 26 events. This club basically encompasses the people, ideas, attempts and resources all together to do agricultural products and service branding, innovation and industrialization through research and different types of activity performances. We always want everyone should have a transparent knowledge about how to make the best utilization of our agro products and their supply chain so that Farmers and our economy can be mostly benefited."
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:padding="25px"
+            android:textColor="@color/black"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="JOIN NOW"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:padding="25px"
+            android:textColor="@color/white"
+            android:backgroundTint="#008744"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/btn"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="back"
+            android:id="@+id/back"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

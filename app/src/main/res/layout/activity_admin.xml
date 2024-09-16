@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:padding="15px"
+        android:textColor="@color/white"
+        android:background="#3b5998"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            >
+
+            <TableRow>
+                <ImageView
+                    android:src="@drawable/club1"
+                    android:background="#b4c8ea"
+                    android:layout_height="100dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/icon1"
+                    android:layout_margin="10dp"
+                    android:onClick="btn1"
+                    />
+
+                <ImageView
+                    android:src="@drawable/calendar"
+                    android:layout_height="100dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/icon2"
+                    android:layout_margin="10dp"
+                    android:background="#b4c8ea"
+                    android:onClick="btn2"
+                    />
+            </TableRow>
+
+
+
+            <TableRow
+                >
+                <ImageView
+                    android:padding="5dp"
+                    android:src="@drawable/notice"
+                    android:layout_height="100dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/icon3"
+                    android:layout_margin="10dp"
+                    android:background="#b4c8ea"
+                    android:onClick="btn3"
+                    />
+
+                <ImageView
+                    android:src="@drawable/blood"
+                    android:layout_height="100dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/icon4"
+                    android:layout_margin="10dp"
+                    android:background="#b4c8ea"
+                    android:onClick="btn4"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:padding="15dp"
+                    android:src="@drawable/contact"
+                    android:layout_height="100dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/icon5"
+                    android:layout_margin="10dp"
+                    android:background="#b4c8ea"
+                    android:onClick="btn5"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
